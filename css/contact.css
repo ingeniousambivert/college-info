@@ -145,7 +145,7 @@ textarea::placeholder {
 }
 
 form {
-    background: linear-gradient(rgba(112, 41, 41, 0.9), rgba(255, 255, 255, 0.5));
+    background: linear-gradient(rgba(112, 41, 41, 0.7), rgba(255, 255, 255, 0.4));
     height: 410px;
     width: 750px;
     text-shadow: 2px 2px 3px #8c8888;
