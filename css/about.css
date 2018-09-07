@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Ubuntu;
+    display: flex;
+    background-image: url("/bg/about1.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    margin: 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a i {
+    margin-left: -450px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+a i:hover {
+    font-size: 32px;
+}
+
+#hi1 {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    color: #2d2d2d;
+    margin: 0px;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in;
+}
+
+#hi1:hover {
+    border-radius: 15px;
+}
+
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#hi2 {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    margin: 0px;
+    color: #2d2d2d;
+    padding: 6px;
+    font-size: 15px;
+    height: 5px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in;
+}
+
+#hi2:hover {
+    border-radius: 15px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.fa:hover {
+    color: #e3e5e4;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #eaeaea;
+    transition: 0.3s;
+    width: 30%;
+    margin: 20px;
+    margin-top: 200px;
+    padding: 2px;
+    align-content: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #eaeaea;
+}

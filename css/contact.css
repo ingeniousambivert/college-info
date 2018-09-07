@@ -1,0 +1,238 @@
+body {
+    font-family: Ubuntu;
+}
+
+html {
+    scroll-behavior: smooth;
+    display: flex;
+    background-image: url("/bg/contact3.jpg");
+    height: 100%;
+    width: 100%;
+    a1d2 background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+#hed {
+    width: 600px;
+    text-align: center;
+    height: 100px;
+    align-content: center;
+    margin-left: 425px;
+    border-radius: 8px 8px 0px 0px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+button {
+    background-color: #0c0000;
+    border-radius: 15px;
+    box-shadow: 3px 6px 12px 0px rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #e3e5e4;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    opacity: 0.9;
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+
+button:hover {
+    border-radius: 35px;
+    color: #2d2d2d;
+    background-color: #f2f2f4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a i {
+    margin-left: -450px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+a i:hover {
+    font-size: 32px;
+}
+
+#hi1 {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    color: #2d2d2d;
+    margin: 0px;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in;
+}
+
+#hi1:hover {
+    border-radius: 15px;
+}
+
+#hi2 {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    margin: 0px;
+    color: #2d2d2d;
+    padding: 6px;
+    font-size: 15px;
+    height: 5px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in;
+}
+
+#hi2:hover {
+    border-radius: 15px;
+}
+
+#cen {
+    font-size: 120px;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    color: #ededed;
+    text-align: center;
+    width: 500px;
+    align-content: center;
+    height: 500px;
+    border: 1px solid rgba(20, 20, 20, 0.1);
+    ;
+    box-shadow: 1px 1.5px rgba(0, 0, 0, 0.1);
+    margin-left: -20px;
+    border-radius: 2px;
+    background: rgba(20, 20, 20, 0.2);
+    text-shadow: 6px 6px 8px #2d2d2d;
+}
+
+#info {
+    align-content: space-between;
+    height: 500px;
+}
+
+#inf {
+    float: right;
+    color: white;
+    margin-top: -476px;
+    width: 300px;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 40px;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    text-shadow: 6px 6px 9px #141414;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    color: #110101;
+    text-shadow: 4px 4px 8px #686868;
+    padding: 10px;
+}
+
+input {
+    text-decoration: none;
+    background: none;
+    font-size: 25px;
+    border: 2px solid rgba(40, 1, 1, 0.7);
+    padding: 10px;
+    border-radius: 20px;
+    color: #e3e5e4;
+}
+
+label {
+    color: #280101;
+}
+
+input::placeholder {
+    color: #a01636;
+    opacity: 0.4;
+}
+
+textarea {
+    text-decoration: none;
+    background: none;
+    font-size: 25px;
+    color: #e3e5e4;
+    border: 2px solid rgba(40, 1, 1, 0.7);
+    padding: 11px;
+    border-radius: 20px;
+}
+
+textarea::placeholder {
+    color: #a01636;
+    opacity: 0.4;
+}
+
+form {
+    background: linear-gradient(rgba(255, 184, 140, 0.8), rgba(222, 98, 98, 0.5));
+    height: 410px;
+    width: 750px;
+    text-shadow: 2px 2px 3px #8c8888;
+    margin-left: 350px;
+    align-content: center;
+    font-size: 25px;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+nav a:hover {
+    color: black;
+}
+
+.fa:hover {
+    color: #e3e5e4;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #eaeaea;
+    transition: 0.3s;
+    width: 30%;
+    margin: 20px;
+    margin-top: 200px;
+    padding: 2px;
+    align-content: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #eaeaea;
+}
+
+table {
+    height: 200px;
+    width: 1000px;
+    align-content: center;
+}
+
+table,
+th,
+td {
+    align-content: center;
+    padding: 30px;
+}
