@@ -57,36 +57,92 @@
             </li>
 
         </nav>
+        <div class="contain">
+            <div class="card">
+                <img src="/bg/alias.jpg" alt="John" style="width:100%">
+                <h1>Aditya Singh</h1>
+                <p class="title">Developer</p>
+                <p>GLS University</p>
+                <p><button onclick="myFunction()">Contact</button></p>
+                <div id="cinfo">Contact</div>
+            </div>
 
-        <div class="container">
-            <img src="main1.jpg" alt="Avatar" style="width:90px">
-            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
-            <p>John Doe saved us from a web disaster.</p>
+            <div class="card">
+                <img src="/bg/alias.jpg" alt="John" style="width:100%">
+                <h1>Ritik Godhani</h1>
+                <p class="title">Developer</p>
+                <p>GLS University</p>
+                <p><button onclick="myFunction1()">Contact</button></p>
+                <div id="cinfo1">Contact</div>
+            </div>
+
+            <div class="card">
+                <img src="/bg/alias.jpg" alt="John" style="width:100%">
+                <h1>Monarch Maisuriya</h1>
+                <p class="title">Developer</p>
+                <p>GLS University</p>
+                <p><button onclick="myFunction2()">Contact</button></p>
+                <div id="cinfo2">Contact</div>
+            </div>
+            <div class="card">
+                <img src="/bg/alias.jpg" alt="John" style="width:100%">
+                <h1>Harsh Rai</h1>
+                <p class="title">Developer</p>
+                <p>GLS University</p>
+                <p><button onclick="myFunction3()">Contact</button></p>
+                <div id="cinfo3">Contact</div>
+            </div>
+            <div class="card">
+                <img src="/bg/alias.jpg" alt="John" style="width:100%">
+                <h1>Prasun Jain</h1>
+                <p class="title">Developer</p>
+                <p>GLS University</p>
+                <p><button onclick="myFunction4()">Contact</button></p>
+                <div id="cinfo4">Contact</div>
+            </div>
         </div>
+    </section>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("cinfo");
+        x.className = "show";
+        setTimeout(function () {
+            x.className = x.className.replace("show", "");
+        }, 3000);
+    }
 
-        <div class="container">
-            <img src="main1.jpg" alt="Avatar" style="width:90px">
-            <p><span>Rebecca Flex.</span> CEO at Company.</p>
-            <p>No one is better than John Doe.</p>
-        </div>
+    function myFunction1() {
+        var x = document.getElementById("cinfo");
+        x.className = "show";
+        setTimeout(function () {
+            x.className = x.className.replace("show", "");
+        }, 3000);
+    }
 
-        <div class="container">
-            <img src="main1.jpg" alt="Avatar" style="width:90px">
-            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
-            <p>John Doe saved us from a web disaster.</p>
-        </div>
+    function myFunction2() {
+        var x = document.getElementById("cinfo");
+        x.className = "show";
+        setTimeout(function () {
+            x.className = x.className.replace("show", "");
+        }, 3000);
+    }
 
-        <div class="container">
-            <img src="main1.jpg" alt="Avatar" style="width:90px">
-            <p><span>Rebecca Flex.</span> CEO at Company.</p>
-            <p>No one is better than John Doe.</p>
-        </div>
-        <div class="container">
-            <img src="main1.jpg" alt="Avatar" style="width:90px">
-            <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
-            <p>John Doe saved us from a web disaster.</p>
-        </div>
+    function myFunction3() {
+        var x = document.getElementById("cinfo");
+        x.className = "show";
+        setTimeout(function () {
+            x.className = x.className.replace("show", "");
+        }, 3000);
+    }
 
-
+    function myFunction4() {
+        var x = document.getElementById("cinfo");
+        x.className = "show";
+        setTimeout(function () {
+            x.className = x.className.replace("show", "");
+        }, 3000);
+    }
+</script>
 
 </html>
