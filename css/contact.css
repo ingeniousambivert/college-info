@@ -119,11 +119,13 @@ input {
 
 label {
     color: #ffffff;
+    text-shadow: 4px 4px 8px #686868;
 }
 
 input::placeholder {
     color: #e3e5e4;
     opacity: 0.4;
+    text-shadow: 4px 4px 8px #686868;
 }
 
 textarea {
@@ -139,6 +141,7 @@ textarea {
 textarea::placeholder {
     color: #e3e5e4;
     opacity: 0.4;
+    text-shadow: 4px 4px 8px #686868;
 }
 
 form {
