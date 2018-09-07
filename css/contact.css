@@ -111,7 +111,7 @@ input {
     text-decoration: none;
     background: none;
     font-size: 25px;
-    border: 2px solid rgba(252, 252, 252, 0.3);
+    border: 2px solid rgba(252, 252, 252, 0.4);
     padding: 10px;
     border-radius: 20px;
     color: #e3e5e4;
@@ -131,7 +131,7 @@ textarea {
     background: none;
     font-size: 25px;
     color: #e3e5e4;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.4);
     padding: 11px;
     border-radius: 20px;
 }
