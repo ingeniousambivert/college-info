@@ -7,13 +7,9 @@ body {
 html {
     scroll-behavior: smooth;
     display: flex;
-    background-image: url("/bg/main3b.jpg");
     height: 100%;
     margin: 0px;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #fad {
@@ -34,8 +30,9 @@ html {
 
 li {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
+    margin-right: 30px;
 }
 
 h1 {
@@ -86,6 +83,15 @@ button:hover {
     border-radius: 15px;
 }
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -99;
+    min-height: 100%;
+}
+
 #hi2 {
     font-family: 'Roboto Condensed',
         sans-serif;
@@ -113,7 +119,6 @@ button:hover {
     align-content: center;
     height: 550px;
     border: 1px solid rgba(20, 20, 20, 0.1);
-    ;
     box-shadow: 1px 1.5px rgba(0, 0, 0, 0.1);
     margin-left: -20px;
     border-radius: 2px;
@@ -128,6 +133,20 @@ button:hover {
 }
 
 #inf {
+    color: white;
+    margin-top: -850px;
+    width: 300px;
+    margin-left: 1100px;
+    margin-right: 30px;
+    display: block;
+    text-align: right;
+    font-size: 40px;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    text-shadow: 6px 6px 9px #141414;
+}
+
+#bca-inf {
     color: white;
     margin-top: -850px;
     width: 300px;
@@ -167,8 +186,8 @@ button:hover {
 }
 
 #learn {
-    /* background-image: url("/bg/learn3b.jpg");*/
-    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    /* background: linear-gradient(#414345, #232526);*/
+    background-image: url("/bg/learn7r.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -255,8 +274,8 @@ footer {
 }
 
 .flip-box-back {
-    background: white;
-    color: black;
+    background: #353535;
+    color: white;
     font-size: 20px;
     height: 423px;
     transform: rotateY(180deg);
@@ -265,4 +284,8 @@ footer {
 .flip-box-back p {
     padding: 25px;
     text-align: justify;
+}
+
+.flip-box-back a {
+    color: steelblue;
 }

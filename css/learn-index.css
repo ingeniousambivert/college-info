@@ -4,11 +4,23 @@ body {
     font-family: Ubuntu;
 }
 
-html {
+#overlay {
     scroll-behavior: smooth;
     display: flex;
-    background-image: url("/bg/main.jpg");
-    height: 100%;
+    background-image: url("/bg/bcaindex.jpg");
+    height: 1000px;
+    margin: 0px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#overlay1 {
+    scroll-behavior: smooth;
+    display: flex;
+    background-image: url("/bg/mscindex.jpg");
+    height: 1000px;
     margin: 0px;
     width: 100%;
     background-position: center;
@@ -87,14 +99,20 @@ button:hover {
     border-radius: 15px;
 }
 
-#bca-cen {
+#sub-cen {
     font-size: 50px;
     font-family: 'Roboto Condensed',
         sans-serif;
     color: white;
-    text-align: right;
-    width: 300px;
-    margin-top: -30px;
+    text-align: center;
+    width: 450px;
+    margin-top: 100px;
+    border: 1px solid rgba(20, 20, 20, 0.1);
+    box-shadow: 1px 1.5px rgba(0, 0, 0, 0.1);
+    margin-left: -300px;
+    border-radius: 2px;
+    background: rgba(20, 20, 20, 0.2);
+    text-shadow: 6px 6px 8px #2d2d2d;
     font-weight: bolder;
     text-shadow: 6px 6px 9px #141414;
 }
@@ -104,12 +122,12 @@ button:hover {
     height: 500px;
 }
 
-#bca-inf {
+#sub-inf {
     float: right;
     color: white;
-    margin-top: -380px;
+    margin-top: -300px;
     width: 300px;
-    margin-right: 30px;
+    margin-left: 800px;
     text-align: right;
     font-size: 40px;
     font-family: 'Roboto Condensed',
