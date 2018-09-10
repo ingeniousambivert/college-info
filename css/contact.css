@@ -55,16 +55,6 @@ a {
     text-decoration: none;
 }
 
-a i {
-    margin-left: -450px;
-    text-align: center;
-    transition: all 0.5s ease;
-}
-
-a i:hover {
-    font-size: 32px;
-}
-
 #hi1 {
     font-family: 'Roboto Condensed',
         sans-serif;
@@ -203,4 +193,56 @@ th,
 td {
     align-content: center;
     padding: 30px;
+}
+
+#cinfo {
+    visibility: hidden;
+    min-width: 220px;
+    height: 60px;
+    margin-left: -125px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    align-content: center;
+}
+
+#cinfo.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #e3e5e4;
+    height: 60px;
+    margin-left: -10px;
+    width: 2000px;
+    display: inline-block;
+}
+
+footer a {
+    color: white;
+    padding: 10px;
+}
+
+footer a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+footer i {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
 }
