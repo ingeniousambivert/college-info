@@ -22,11 +22,12 @@ li {
 #hed {
     width: 600px;
     text-align: center;
-    height: 100px;
+    height: 120px;
     align-content: center;
     margin-left: 425px;
     border-radius: 8px 8px 0px 0px;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 button {
@@ -46,7 +47,7 @@ button {
 
 button:hover {
     border-radius: 35px;
-    background-color: #0c0000;
+    background-color: #111111;
     color: #e3e5e4;
 }
 
@@ -124,7 +125,7 @@ label {
 
 input::placeholder {
     color: #e3e5e4;
-    opacity: 0.4;
+    opacity: 0.6;
     text-shadow: 4px 4px 8px #686868;
 }
 
@@ -140,7 +141,7 @@ textarea {
 
 textarea::placeholder {
     color: #e3e5e4;
-    opacity: 0.4;
+    opacity: 0.6;
     text-shadow: 4px 4px 8px #686868;
 }
 

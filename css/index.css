@@ -187,7 +187,7 @@ button:hover {
 
 #learn {
     /* background: linear-gradient(#414345, #232526);*/
-    background-image: url("/bg/learn7r.jpg");
+    background-image: url("/bg/learn16.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +231,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(10, 10, 10);
     color: #e3e5e4;
     height: 60px;
     width: 2000px;
@@ -274,10 +274,13 @@ footer {
 }
 
 .flip-box-back {
-    background: #353535;
+    background: #1c1b1b;
     color: white;
     font-size: 20px;
     height: 423px;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    border: 1px solid #e3e5e4;
     transform: rotateY(180deg);
 }
 
