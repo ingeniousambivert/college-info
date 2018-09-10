@@ -18,7 +18,7 @@ body {
     right: 0;
     bottom: 0;
     min-width: 50%;
-    z-index: -99;
+    z-index: -999;
     min-height: 100%;
 }
 
@@ -181,7 +181,6 @@ button:hover {
     text-align: center;
     width: 450px;
     margin-top: 400px;
-    position: absolute;
     border: 1px solid rgba(20, 20, 20, 0.1);
     box-shadow: 1px 1.5px rgba(0, 0, 0, 0.1);
     margin-left: -300px;
